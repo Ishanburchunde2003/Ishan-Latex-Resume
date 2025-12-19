@@ -1,0 +1,262 @@
+
+%------------------------
+% Resume in LaTeX
+% Author : Ishan Rajendra Burchunde
+% Type   : Fresher Resume
+% License: MIT
+% GitHub : https://github.com/Ishanburchunde2003/Ishan-Latex-Resume
+%------------------------
+
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+
+
+
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape ISHAN BURCHUNDE} \\ \vspace{1pt}
+    Pune, Maharashtra, India \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 99999 00000 ~ \href{mailto:gulabjamun@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{gulabjamun@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/gulabjamun}{\raisebox{-0.2\height}\faLinkedin\ \underline{gulab-jamun}}  ~
+    \href{https://github.com/gulabjamun}{\raisebox{-0.2\height}\faGithub\ \underline{GulabJamun}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+Entry-level Data Analyst with academic exposure to SQL, Python, Excel, and Power BI. Experienced in working with sample datasets to perform data cleaning, basic analysis, and dashboard creation. Eager to learn and apply analytical skills in a structured, entry-level data role.
+
+
+%----------- SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, MySQL, HTML, CSS, JavaScript} \\
+     \textbf{Developer Tools}{: VS Code, Eclipse, Google Cloud Platform, Android Studio} \\
+     \textbf{Technologies/Frameworks}{: Power BI, Tableau, Microsoft Azure, Bootstrap, React, GitHub.} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+
+
+ %-----------INTERNSHIP-----------
+\section{Internship}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Electronics Company}{May 2020 -- August 2020}
+      {Software Engineer Intern}{City, State}
+      \resumeItemListStart
+        \resumeItem{Created basic Power BI dashboards to visualize trends and key metrics}
+        \resumeItem{Assisting in vehicle assembly and testing processes to ensure quality and performance standards.}
+        \resumeItem{Used SQL queries to filter, aggregate, and validate structured data.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Startup, Inc}{May 2019 -- August 2019}
+      {Front End Developer Intern}{City, State}
+      \resumeItemListStart
+        \resumeItem{Worked on case-study based assignments to understand business data problems.}
+        \resumeItem{Created basic dashboards and charts using Power BI for practice analysis.}
+        \resumeItem{Performed data cleaning and preprocessing on sample datasets using Excel and SQL.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Sales Performance Analysis (Sample Project)} $|$ \emph{React, Vite, JavaScript, AI Integration}}{July 2024 -- May 2025}
+          \resumeItemListStart
+            \resumeItem{Analyzed sample sales datasets to identify monthly trends and top-performing products.}
+            \resumeItem{Designed interactive Power BI dashboards with filters and KPIs.}
+            \resumeItem{Used SQL queries for data aggregation and validation.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Ticket Price Calculator App} $|$ \emph{Java, Android Studio}}{July 2024 -- May 2025}
+          \resumeItemListStart
+            \resumeItem{Implemented generative AI workflows enabling auto-summaries, rewriting, scheduling, and knowledge extraction.}
+            \resumeItem{Processed academic datasets to calculate averages, rankings, and distributions.}
+            \resumeItem{Applied basic data visualization using Python libraries.}
+          \resumeItemListEnd  
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {St. Xavier's Colleges}{2021 -- 2025}
+    {Bachelor’s in Electronics and Telecommunication Engineering $|$ CGPA: 10.28}{Pune}
+
+  \resumeSubheading
+    {Nirala Vidyalayas}{2019 -- 2021}
+    {HSC (MSBSHSE) $|$ Percentage: 9.33\%}{Pune}
+
+  \resumeSubheading
+    {Pune School}{2018 -- 2019}
+    {SSC (CBSE) $|$ Percentage: 8.60\%}{Chandrapur}
+
+\resumeSubHeadingListEnd
+
+
+
+%-----------CERTIFICATE---------------
+\section{Certification}
+   \textbf{Azure Fundamentals (AZ-900)} $|$ \textit{Microsoft} \hfill \textbf{Feb 2024} \\
+   \textbf{Data Analytics Virtual Training (Sample)} $|$ \textit{Online Learning Platform} \hfill \textbf{Jan 2024} \\
+   \textbf{SQL for Data Analysis (Practice)} $|$ \textit{Self-Learning} \hfill \textbf{Feb 2024} \\
+ \vspace{-7pt}
+
+
+
+
+ %------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+Data Structures and Algorithms, Database Management Systems (DBMS),
+Artificial Intelligence, Computer Architecture, Operating Systems,
+Internet Technology
+
+
+\end{document}
